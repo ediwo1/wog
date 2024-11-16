@@ -1,6 +1,6 @@
-import guess_game
-import currency_roulette_game
 import memory_game
+import currency_roulette_game
+import guess_game
 
 
 def welcome():

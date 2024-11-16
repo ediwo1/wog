@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  flask-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: docker.io/ediwo1/0408:latest
+    ports:
+      - "8777:5000"
